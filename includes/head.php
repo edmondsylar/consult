@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Find easily a doctor and book online an appointment">
-	<meta name="author" content="Ansonika">
-	<title>Appointment Bookings</title>
+	<meta name="description" content="Book a private consultation session with a Professional Doctor.">
+	<meta name="author" content="edmondsylar">
+	<title>Consultation | Dokta App.</title>
 
 	<!-- Favicons-->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

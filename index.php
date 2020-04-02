@@ -1,4 +1,12 @@
-<?php include_once "includes/head.php" ?>
+<?php include_once "includes/head.php";
+include_once "back/config.php";
+
+$con = new Config();
+$specialties = $con->get_specs();
+//   echo $specialties;
+
+?>
+
 
 <style>
     .selector {
@@ -57,7 +65,13 @@
                 <p>Select a doctor who has specialized in the field of your interest</p>
 
                 <select name="specialty" id="" class="selector">
-                    <option value="none" selected>select specialty</option>
+                    <option value="none" selected disabled>Select Specialty</option>
+                    <?php if (!empty($specialties)) : ?>
+                        <?php foreach ($specialties as $spec) : ?>
+                            <option value="<?php echo $spec['specialty']; ?>" selected><?php echo $spec['specialty'] ?></option>
+                            <?php echo $spec; ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </select>
 
                 <h3>50, 000/=</h3>
@@ -97,7 +111,7 @@
                         <input type="hidden" name="reference" value="appointmentRef" />
                         <input type="hidden" name="provider_reference_text" value="Appointment With Doctor set" />
                         <input type="hidden" name="account" value="100712303477" />
-                        <input type="hidden" name="return" value="https://hsvug.com/appoint/main/?unique_transaction_id=0&transaction_reference=0" />
+                        <input type="hidden" name="return" value="https://tawk.to/chat/5e84d6bb35bcbb0c9aacb94e/default" />
                         <input type="hidden" name="prefilled_payer_email_address" value="" />
                         <input type="hidden" name="prefilled_payer_mobile_payment_msisdn" value="" />
                         <input type="hidden" name="prefilled_payer_names" value="" />
