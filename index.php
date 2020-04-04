@@ -49,7 +49,7 @@ $specialties = $con->get_specs();
                         <input type="hidden" name="reference" value="generalConsultation" />
                         <input type="hidden" name="provider_reference_text" value="Consultation Payment" />
                         <input type="hidden" name="account" value="100712303477" />
-                        <input type="hidden" name="return" value="http://localhost/appointment/main/session.php?status=general&unique_transaction_id=0&transaction_reference=0" />
+                        <input type="hidden" name="return" value="https://tawk.to/chat/5e87beb935bcbb0c9aad9581/1e537j6jj" />
                         <input type="hidden" name="prefilled_payer_email_address" value="" />
                         <input type="hidden" name="prefilled_payer_mobile_payment_msisdn" value="" />
                         <input type="hidden" name="prefilled_payer_names" value="" />
@@ -86,7 +86,7 @@ $specialties = $con->get_specs();
                         <input type="hidden" name="reference" value="SpecialConsultation" />
                         <input type="hidden" name="provider_reference_text" value="Confirm payment for Consultation " />
                         <input type="hidden" name="account" value="100712303477" />
-                        <input type="hidden" name="return" value="http://localhost/appointment/main/session.php?status=active&unique_transaction_id=0&transaction_reference=0" />
+                        <input type="hidden" name="return" value="https://tawk.to/chat/5e87beb935bcbb0c9aad9581/1e537ft4l" />
                         <input type="hidden" name="prefilled_payer_email_address" value="" />
                         <input type="hidden" name="prefilled_payer_mobile_payment_msisdn" value="" />
                         <input type="hidden" name="prefilled_payer_names" value="" />
@@ -111,7 +111,8 @@ $specialties = $con->get_specs();
                         <input type="hidden" name="reference" value="appointmentRef" />
                         <input type="hidden" name="provider_reference_text" value="Appointment With Doctor set" />
                         <input type="hidden" name="account" value="100712303477" />
-                        <input type="hidden" name="return" value="https://tawk.to/chat/5e84d6bb35bcbb0c9aacb94e/default" />
+                        <input type="hidden" name="return" value="https://tawk.to/chat/5e87beb935bcbb0c9aad9581/1e537kohu" />
+                        <!-- I have added this channel to handle consultation Just to help in scheduling the meetings for the people who have booked for appointments -->
                         <input type="hidden" name="prefilled_payer_email_address" value="" />
                         <input type="hidden" name="prefilled_payer_mobile_payment_msisdn" value="" />
                         <input type="hidden" name="prefilled_payer_names" value="" />
